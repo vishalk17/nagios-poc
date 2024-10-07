@@ -1,0 +1,960 @@
+[1728057119] Nagios 4.4.14 starting... (PID=13138)
+[1728057119] Local time is Fri Oct 04 15:51:59 UTC 2024
+[1728057119] LOG VERSION: 2.0
+[1728057119] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728057119] qh: core query handler registered
+[1728057119] qh: echo service query handler registered
+[1728057119] qh: help for the query handler registered
+[1728057119] wproc: Successfully registered manager as @wproc with query handler
+[1728057119] wproc: Registry request: name=Core Worker 13139;pid=13139
+[1728057119] wproc: Registry request: name=Core Worker 13141;pid=13141
+[1728057119] wproc: Registry request: name=Core Worker 13140;pid=13140
+[1728057119] wproc: Registry request: name=Core Worker 13142;pid=13142
+[1728057121] Successfully launched command file worker with pid 13143
+[1728057121] HOST ALERT: localhost;DOWN;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057156] SERVICE ALERT: localhost;Current Load;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_load, ...) failed. errno is 2: No such file or directory
+[1728057181] HOST ALERT: localhost;DOWN;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057194] SERVICE ALERT: localhost;Current Users;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_users, ...) failed. errno is 2: No such file or directory
+[1728057231] SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_http, ...) failed. errno is 2: No such file or directory
+[1728057241] HOST ALERT: localhost;DOWN;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057269] SERVICE ALERT: localhost;PING;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057301] HOST ALERT: localhost;DOWN;SOFT;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057306] SERVICE ALERT: localhost;Root Partition;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_disk, ...) failed. errno is 2: No such file or directory
+[1728057344] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ssh, ...) failed. errno is 2: No such file or directory
+[1728057361] HOST ALERT: localhost;DOWN;SOFT;5;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057381] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_swap, ...) failed. errno is 2: No such file or directory
+[1728057419] SERVICE ALERT: localhost;Total Processes;CRITICAL;HARD;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_procs, ...) failed. errno is 2: No such file or directory
+[1728057421] HOST ALERT: localhost;DOWN;SOFT;6;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057481] HOST ALERT: localhost;DOWN;SOFT;7;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1728057531] SERVICE ALERT: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 10945 bytes in 0.001 second response time
+[1728057535] HOST ALERT: localhost;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1728057574] SERVICE ALERT: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1728057594] Caught SIGTERM, shutting down...
+[1728057594] Caught SIGTERM, shutting down...
+[1728057594] Caught SIGTERM, shutting down...
+[1728057594] Successfully shutdown... (PID=13138)
+[1728057594] Nagios 4.4.14 starting... (PID=27841)
+[1728057594] Local time is Fri Oct 04 15:59:54 UTC 2024
+[1728057594] LOG VERSION: 2.0
+[1728057594] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728057594] qh: core query handler registered
+[1728057594] qh: echo service query handler registered
+[1728057594] qh: help for the query handler registered
+[1728057594] wproc: Successfully registered manager as @wproc with query handler
+[1728057594] wproc: Registry request: name=Core Worker 27846;pid=27846
+[1728057594] wproc: Registry request: name=Core Worker 27845;pid=27845
+[1728057594] wproc: Registry request: name=Core Worker 27844;pid=27844
+[1728057594] wproc: Registry request: name=Core Worker 27843;pid=27843
+[1728057594] Successfully launched command file worker with pid 27850
+[1728057606] SERVICE ALERT: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 5371 MiB (69.40% inode=91%):
+[1728057644] SERVICE ALERT: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728057681] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728057681] wproc: NOTIFY job 0 from worker Core Worker 27843 is a non-check helper but exited with return code 127
+[1728057681] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1728057681] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728057681] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728057681] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1728057719] SERVICE ALERT: localhost;Total Processes;OK;HARD;1;PROCS OK: 42 processes with STATE = RSZDT
+[1728057756] SERVICE ALERT: localhost;Current Load;OK;HARD;1;OK - load average: 0.01, 0.09, 0.08
+[1728057794] SERVICE ALERT: localhost;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+[1728058936] Caught SIGTERM, shutting down...
+[1728058936] Caught SIGTERM, shutting down...
+[1728058936] Caught SIGTERM, shutting down...
+[1728058936] Successfully shutdown... (PID=27841)
+[1728059343] Nagios 4.4.14 starting... (PID=28117)
+[1728059343] Local time is Fri Oct 04 16:29:03 UTC 2024
+[1728059343] LOG VERSION: 2.0
+[1728059343] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728059343] qh: core query handler registered
+[1728059343] qh: echo service query handler registered
+[1728059343] qh: help for the query handler registered
+[1728059343] wproc: Successfully registered manager as @wproc with query handler
+[1728059343] wproc: Registry request: name=Core Worker 28118;pid=28118
+[1728059343] wproc: Registry request: name=Core Worker 28121;pid=28121
+[1728059343] wproc: Registry request: name=Core Worker 28120;pid=28120
+[1728059343] wproc: Registry request: name=Core Worker 28119;pid=28119
+[1728059343] Successfully launched command file worker with pid 28122
+[1728059474] SERVICE ALERT: web;HTTP;CRITICAL;SOFT;1;connect to address 172.31.5.190 and port 80: Connection refused
+[1728059534] SERVICE ALERT: web;HTTP;CRITICAL;SOFT;2;connect to address 172.31.5.190 and port 80: Connection refused
+[1728059594] SERVICE ALERT: web;HTTP;CRITICAL;SOFT;3;connect to address 172.31.5.190 and port 80: Connection refused
+[1728059624] SERVICE ALERT: web;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728059654] SERVICE ALERT: web;HTTP;CRITICAL;HARD;4;connect to address 172.31.5.190 and port 80: Connection refused
+[1728059684] SERVICE ALERT: web;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728059744] SERVICE ALERT: web;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728059804] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728059804] SERVICE ALERT: web;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728059804] wproc: NOTIFY job 8 from worker Core Worker 28121 is a non-check helper but exited with return code 127
+[1728059804] wproc:   host=web; service=Swap Usage; contact=nagiosadmin
+[1728059804] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728059804] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728059804] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1728061259] Caught SIGTERM, shutting down...
+[1728061259] Caught SIGTERM, shutting down...
+[1728061259] Caught SIGTERM, shutting down...
+[1728061259] Successfully shutdown... (PID=28117)
+[1728061259] Nagios 4.4.14 starting... (PID=28667)
+[1728061259] Local time is Fri Oct 04 17:00:59 UTC 2024
+[1728061259] LOG VERSION: 2.0
+[1728061259] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728061259] qh: core query handler registered
+[1728061259] qh: echo service query handler registered
+[1728061259] qh: help for the query handler registered
+[1728061259] wproc: Successfully registered manager as @wproc with query handler
+[1728061259] wproc: Registry request: name=Core Worker 28671;pid=28671
+[1728061259] wproc: Registry request: name=Core Worker 28668;pid=28668
+[1728061259] wproc: Registry request: name=Core Worker 28669;pid=28669
+[1728061259] wproc: Registry request: name=Core Worker 28670;pid=28670
+[1728061259] Successfully launched command file worker with pid 28672
+[1728061405] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728061405] wproc: NOTIFY job 2 from worker Core Worker 28671 is a non-check helper but exited with return code 127
+[1728061405] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1728061405] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728061405] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728061538] Caught SIGTERM, shutting down...
+[1728061538] Caught SIGTERM, shutting down...
+[1728061538] Caught SIGTERM, shutting down...
+[1728061538] Successfully shutdown... (PID=28667)
+[1728061538] Nagios 4.4.14 starting... (PID=28901)
+[1728061538] Local time is Fri Oct 04 17:05:38 UTC 2024
+[1728061538] LOG VERSION: 2.0
+[1728061538] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728061538] qh: core query handler registered
+[1728061538] qh: echo service query handler registered
+[1728061538] qh: help for the query handler registered
+[1728061538] wproc: Successfully registered manager as @wproc with query handler
+[1728061538] wproc: Registry request: name=Core Worker 28905;pid=28905
+[1728061538] wproc: Registry request: name=Core Worker 28902;pid=28902
+[1728061538] wproc: Registry request: name=Core Worker 28904;pid=28904
+[1728061538] wproc: Registry request: name=Core Worker 28903;pid=28903
+[1728061538] Successfully launched command file worker with pid 28906
+[1728061559] EXTERNAL COMMAND: ENABLE_SVC_NOTIFICATIONS;web;HTTP
+[1728061696] SERVICE ALERT: web;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1728061699] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061757] SERVICE ALERT: web;SSH;CRITICAL;HARD;4;connect to address 172.31.5.190 and port 22: No route to host
+[1728061760] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061802] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061818] Caught SIGTERM, shutting down...
+[1728061818] Caught SIGTERM, shutting down...
+[1728061818] Caught SIGTERM, shutting down...
+[1728061818] Successfully shutdown... (PID=28901)
+[1728061818] Nagios 4.4.14 starting... (PID=29130)
+[1728061818] Local time is Fri Oct 04 17:10:18 UTC 2024
+[1728061818] LOG VERSION: 2.0
+[1728061818] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728061818] qh: core query handler registered
+[1728061818] qh: echo service query handler registered
+[1728061818] qh: help for the query handler registered
+[1728061818] wproc: Successfully registered manager as @wproc with query handler
+[1728061818] wproc: Registry request: name=Core Worker 29134;pid=29134
+[1728061818] wproc: Registry request: name=Core Worker 29131;pid=29131
+[1728061818] wproc: Registry request: name=Core Worker 29133;pid=29133
+[1728061818] wproc: Registry request: name=Core Worker 29132;pid=29132
+[1728061818] Successfully launched command file worker with pid 29135
+[1728061835] Caught SIGTERM, shutting down...
+[1728061835] Caught SIGTERM, shutting down...
+[1728061835] Caught SIGTERM, shutting down...
+[1728061835] Successfully shutdown... (PID=29130)
+[1728061835] Nagios 4.4.14 starting... (PID=29146)
+[1728061835] Local time is Fri Oct 04 17:10:35 UTC 2024
+[1728061835] LOG VERSION: 2.0
+[1728061835] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728061835] qh: core query handler registered
+[1728061835] qh: echo service query handler registered
+[1728061835] qh: help for the query handler registered
+[1728061835] wproc: Successfully registered manager as @wproc with query handler
+[1728061835] wproc: Registry request: name=Core Worker 29149;pid=29149
+[1728061835] wproc: Registry request: name=Core Worker 29150;pid=29150
+[1728061835] wproc: Registry request: name=Core Worker 29147;pid=29147
+[1728061835] wproc: Registry request: name=Core Worker 29148;pid=29148
+[1728061835] Successfully launched command file worker with pid 29151
+[1728061840] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061903] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061915] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728061930] Caught SIGTERM, shutting down...
+[1728061930] Caught SIGTERM, shutting down...
+[1728061930] Caught SIGTERM, shutting down...
+[1728061930] Successfully shutdown... (PID=29146)
+[1728061930] Nagios 4.4.14 starting... (PID=29172)
+[1728061930] Local time is Fri Oct 04 17:12:10 UTC 2024
+[1728061930] LOG VERSION: 2.0
+[1728061930] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728061930] qh: core query handler registered
+[1728061930] qh: echo service query handler registered
+[1728061930] qh: help for the query handler registered
+[1728061930] wproc: Successfully registered manager as @wproc with query handler
+[1728061930] wproc: Registry request: name=Core Worker 29175;pid=29175
+[1728061930] wproc: Registry request: name=Core Worker 29176;pid=29176
+[1728061930] wproc: Registry request: name=Core Worker 29174;pid=29174
+[1728061930] wproc: Registry request: name=Core Worker 29173;pid=29173
+[1728061930] Successfully launched command file worker with pid 29177
+[1728061953] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.07 ms
+[1728062054] SERVICE NOTIFICATION: nagiosadmin;web;HTTP;CRITICAL;notify-service-by-email;connect to address 172.31.5.190 and port 80: Connection refused
+[1728062054] wproc: NOTIFY job 2 from worker Core Worker 29176 is a non-check helper but exited with return code 127
+[1728062054] wproc:   host=web; service=HTTP; contact=nagiosadmin
+[1728062054] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728062054] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728062054] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1728062056] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728062215] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.11 ms
+[1728062439] Caught SIGTERM, shutting down...
+[1728062439] Caught SIGTERM, shutting down...
+[1728062439] wproc: Socket to worker Core Worker 29174 broken, removing
+[1728062439] wproc: Socket to worker Core Worker 29175 broken, removing
+[1728062439] wproc: Socket to worker Core Worker 29176 broken, removing
+[1728062439] Successfully shutdown... (PID=29172)
+[1728062439] Nagios 4.4.14 starting... (PID=29277)
+[1728062439] Local time is Fri Oct 04 17:20:39 UTC 2024
+[1728062439] LOG VERSION: 2.0
+[1728062439] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728062439] qh: core query handler registered
+[1728062439] qh: echo service query handler registered
+[1728062439] qh: help for the query handler registered
+[1728062439] wproc: Successfully registered manager as @wproc with query handler
+[1728062439] wproc: Registry request: name=Core Worker 29278;pid=29278
+[1728062439] wproc: Registry request: name=Core Worker 29281;pid=29281
+[1728062439] wproc: Registry request: name=Core Worker 29279;pid=29279
+[1728062439] wproc: Registry request: name=Core Worker 29280;pid=29280
+[1728062439] Successfully launched command file worker with pid 29282
+[1728062521] SERVICE ALERT: web;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728062522] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728062552] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728062584] SERVICE ALERT: web;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728062609] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728062657] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728062672] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728062710] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 58%, RTA = 1.13 ms
+[1728062885] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (24.2% change >= 20.0% threshold)
+[1728062885] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.97 ms
+[1728062956] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (23.9% change >= 20.0% threshold)
+[1728062956] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728063055] Caught SIGTERM, shutting down...
+[1728063055] Caught SIGTERM, shutting down...
+[1728063055] Caught SIGTERM, shutting down...
+[1728063055] Successfully shutdown... (PID=29277)
+[1728063055] Nagios 4.4.14 starting... (PID=29429)
+[1728063055] Local time is Fri Oct 04 17:30:55 UTC 2024
+[1728063055] LOG VERSION: 2.0
+[1728063055] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728063055] qh: core query handler registered
+[1728063055] qh: echo service query handler registered
+[1728063055] qh: help for the query handler registered
+[1728063055] wproc: Successfully registered manager as @wproc with query handler
+[1728063055] wproc: Registry request: name=Core Worker 29432;pid=29432
+[1728063055] wproc: Registry request: name=Core Worker 29433;pid=29433
+[1728063055] wproc: Registry request: name=Core Worker 29431;pid=29431
+[1728063055] wproc: Registry request: name=Core Worker 29430;pid=29430
+[1728063055] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (24.2% change >= 20.0% threshold)
+[1728063055] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (23.9% change >= 20.0% threshold)
+[1728063055] Successfully launched command file worker with pid 29434
+[1728063191] SERVICE ALERT: web;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728063194] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063209] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063254] SERVICE ALERT: web;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063259] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728063273] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063302] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063339] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063402] HOST ALERT: web;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728063453] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.25 ms
+[1728063555] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.93 ms
+[1728063556] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728063704] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728063704] wproc: NOTIFY job 11 from worker Core Worker 29433 is a non-check helper but exited with return code 127
+[1728063704] wproc:   host=web; service=Swap Usage; contact=nagiosadmin
+[1728063704] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728063704] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728063704] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1728063854] Caught SIGTERM, shutting down...
+[1728063854] Caught SIGTERM, shutting down...
+[1728063854] Caught SIGTERM, shutting down...
+[1728063854] Successfully shutdown... (PID=29429)
+[1728063854] Nagios 4.4.14 starting... (PID=29679)
+[1728063854] Local time is Fri Oct 04 17:44:14 UTC 2024
+[1728063854] LOG VERSION: 2.0
+[1728063854] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728063854] qh: core query handler registered
+[1728063854] qh: echo service query handler registered
+[1728063854] qh: help for the query handler registered
+[1728063854] wproc: Successfully registered manager as @wproc with query handler
+[1728063854] wproc: Registry request: name=Core Worker 29683;pid=29683
+[1728063854] wproc: Registry request: name=Core Worker 29680;pid=29680
+[1728063854] wproc: Registry request: name=Core Worker 29682;pid=29682
+[1728063854] wproc: Registry request: name=Core Worker 29681;pid=29681
+[1728063854] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (35.5% change >= 20.0% threshold)
+[1728063854] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (35.3% change >= 20.0% threshold)
+[1728063854] Successfully launched command file worker with pid 29684
+[1728063939] SERVICE ALERT: web;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728063969] HOST ALERT: web;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728063998] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;PING;0;Nagios Admin;asdfas
+[1728063998] SERVICE NOTIFICATION: nagiosadmin;web;PING;CUSTOM (CRITICAL);notify-service-by-email;PING CRITICAL - Packet loss = 100%;Nagios Admin;asdfas
+[1728063998] wproc: NOTIFY job 2 from worker Core Worker 29680 is a non-check helper but exited with return code 127
+[1728063998] wproc:   host=web; service=PING; contact=nagiosadmin
+[1728063998] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1728063998] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1728063998] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1728064002] SERVICE ALERT: web;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728064032] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728064052] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728064109] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728064142] Caught SIGTERM, shutting down...
+[1728064142] Caught SIGTERM, shutting down...
+[1728064142] Successfully shutdown... (PID=29679)
+[1728064573] Nagios 4.4.14 starting... (PID=31006)
+[1728064573] Local time is Fri Oct 04 17:56:13 UTC 2024
+[1728064573] LOG VERSION: 2.0
+[1728064573] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728064573] qh: core query handler registered
+[1728064573] qh: echo service query handler registered
+[1728064573] qh: help for the query handler registered
+[1728064573] wproc: Successfully registered manager as @wproc with query handler
+[1728064573] wproc: Registry request: name=Core Worker 31010;pid=31010
+[1728064573] wproc: Registry request: name=Core Worker 31007;pid=31007
+[1728064573] wproc: Registry request: name=Core Worker 31008;pid=31008
+[1728064573] wproc: Registry request: name=Core Worker 31009;pid=31009
+[1728064573] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (41.0% change >= 20.0% threshold)
+[1728064573] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (34.5% change >= 20.0% threshold)
+[1728064573] Successfully launched command file worker with pid 31011
+[1728064623] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.18 ms
+[1728064745] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.06 ms
+[1728065135] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728065904] SERVICE NOTIFICATION: nagiosadmin;web;HTTP;CRITICAL;notify-service-by-email;connect to address 172.31.5.190 and port 80: Connection refused
+[1728066712] Caught SIGTERM, shutting down...
+[1728066712] Caught SIGTERM, shutting down...
+[1728066712] Caught SIGTERM, shutting down...
+[1728066712] Successfully shutdown... (PID=31006)
+[1728067288] Nagios 4.4.14 starting... (PID=31736)
+[1728067288] Local time is Fri Oct 04 18:41:28 UTC 2024
+[1728067288] LOG VERSION: 2.0
+[1728067288] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728067288] qh: core query handler registered
+[1728067288] qh: echo service query handler registered
+[1728067288] qh: help for the query handler registered
+[1728067288] wproc: Successfully registered manager as @wproc with query handler
+[1728067288] wproc: Registry request: name=Core Worker 31739;pid=31739
+[1728067288] wproc: Registry request: name=Core Worker 31740;pid=31740
+[1728067288] wproc: Registry request: name=Core Worker 31737;pid=31737
+[1728067288] wproc: Registry request: name=Core Worker 31738;pid=31738
+[1728067288] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (40.0% change >= 20.0% threshold)
+[1728067288] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (28.9% change >= 20.0% threshold)
+[1728067288] Successfully launched command file worker with pid 31741
+[1728067386] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;SSH;0;Nagios Admin;sfasfd
+[1728067441] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728067459] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728067461] Caught SIGTERM, shutting down...
+[1728067461] wproc: Socket to worker Core Worker 31740 broken, removing
+[1728067461] Caught SIGTERM, shutting down...
+[1728067461] Successfully shutdown... (PID=31736)
+[1728067461] Nagios 4.4.14 starting... (PID=31822)
+[1728067461] Local time is Fri Oct 04 18:44:21 UTC 2024
+[1728067461] LOG VERSION: 2.0
+[1728067461] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728067461] qh: core query handler registered
+[1728067461] qh: echo service query handler registered
+[1728067461] qh: help for the query handler registered
+[1728067461] wproc: Successfully registered manager as @wproc with query handler
+[1728067461] wproc: Registry request: name=Core Worker 31825;pid=31825
+[1728067461] wproc: Registry request: name=Core Worker 31823;pid=31823
+[1728067461] wproc: Registry request: name=Core Worker 31826;pid=31826
+[1728067461] wproc: Registry request: name=Core Worker 31824;pid=31824
+[1728067461] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (45.2% change >= 20.0% threshold)
+[1728067461] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (28.9% change >= 20.0% threshold)
+[1728067461] Successfully launched command file worker with pid 31827
+[1728067482] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;SSH;0;Nagios Admin;asdfas
+[1728067497] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728067534] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728067561] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.93 ms
+[1728067569] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728067760] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.02 ms
+[1728067831] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728067980] Caught SIGTERM, shutting down...
+[1728067980] Caught SIGTERM, shutting down...
+[1728067980] Caught SIGTERM, shutting down...
+[1728067980] Successfully shutdown... (PID=31822)
+[1728067980] Nagios 4.4.14 starting... (PID=32073)
+[1728067980] Local time is Fri Oct 04 18:53:00 UTC 2024
+[1728067980] LOG VERSION: 2.0
+[1728067980] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728067980] qh: core query handler registered
+[1728067980] qh: echo service query handler registered
+[1728067980] qh: help for the query handler registered
+[1728067980] wproc: Successfully registered manager as @wproc with query handler
+[1728067980] wproc: Registry request: name=Core Worker 32076;pid=32076
+[1728067980] wproc: Registry request: name=Core Worker 32077;pid=32077
+[1728067980] wproc: Registry request: name=Core Worker 32074;pid=32074
+[1728067980] wproc: Registry request: name=Core Worker 32075;pid=32075
+[1728067980] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (50.3% change >= 20.0% threshold)
+[1728067980] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (39.7% change >= 20.0% threshold)
+[1728067980] Successfully launched command file worker with pid 32078
+[1728068366] SERVICE ALERT: web;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728068368] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068397] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068429] SERVICE ALERT: web;PING;CRITICAL;HARD;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068434] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728068460] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068523] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068547] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728068585] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.30 ms
+[1728068730] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.35 ms
+[1728068731] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728068750] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728068923] Caught SIGTERM, shutting down...
+[1728068923] Caught SIGTERM, shutting down...
+[1728068923] Caught SIGTERM, shutting down...
+[1728068923] Successfully shutdown... (PID=32073)
+[1728068923] Nagios 4.4.14 starting... (PID=32220)
+[1728068923] Local time is Fri Oct 04 19:08:43 UTC 2024
+[1728068923] LOG VERSION: 2.0
+[1728068923] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728068923] qh: core query handler registered
+[1728068923] qh: echo service query handler registered
+[1728068923] qh: help for the query handler registered
+[1728068923] wproc: Successfully registered manager as @wproc with query handler
+[1728068923] wproc: Registry request: name=Core Worker 32224;pid=32224
+[1728068923] wproc: Registry request: name=Core Worker 32221;pid=32221
+[1728068923] wproc: Registry request: name=Core Worker 32222;pid=32222
+[1728068923] wproc: Registry request: name=Core Worker 32223;pid=32223
+[1728068923] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (58.7% change >= 20.0% threshold)
+[1728068923] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (48.9% change >= 20.0% threshold)
+[1728068923] Successfully launched command file worker with pid 32225
+[1728069211] wproc: Core Worker 32222: job 3 (pid=32310) timed out. Killing it
+[1728069211] wproc: CHECK job 3 from worker Core Worker 32222 timed out after 30.01s
+[1728069211] wproc:   host=web; service=(null);
+[1728069211] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1728069211] Warning: Check of host 'web' timed out after 30.01 seconds
+[1728069211] HOST ALERT: web;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1728069211] wproc: Core Worker 32222: job 3 (pid=32310): Dormant child reaped
+[1728069241] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069297] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069309] Caught SIGTERM, shutting down...
+[1728069309] wproc: Socket to worker Core Worker 32221 broken, removing
+[1728069309] wproc: Socket to worker Core Worker 32224 broken, removing
+[1728069309] Caught SIGTERM, shutting down...
+[1728069309] Successfully shutdown... (PID=32220)
+[1728069309] Nagios 4.4.14 starting... (PID=32335)
+[1728069309] Local time is Fri Oct 04 19:15:09 UTC 2024
+[1728069309] LOG VERSION: 2.0
+[1728069309] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728069309] qh: core query handler registered
+[1728069309] qh: echo service query handler registered
+[1728069309] qh: help for the query handler registered
+[1728069309] wproc: Successfully registered manager as @wproc with query handler
+[1728069309] wproc: Registry request: name=Core Worker 32339;pid=32339
+[1728069309] wproc: Registry request: name=Core Worker 32337;pid=32337
+[1728069309] wproc: Registry request: name=Core Worker 32336;pid=32336
+[1728069309] wproc: Registry request: name=Core Worker 32338;pid=32338
+[1728069309] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (57.1% change >= 20.0% threshold)
+[1728069309] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (44.0% change >= 20.0% threshold)
+[1728069309] Successfully launched command file worker with pid 32340
+[1728069329] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069334] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728069360] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069423] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069447] HOST ALERT: web;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069484] HOST ALERT: web;DOWN;SOFT;7;CRITICAL - Host Unreachable (172.31.5.190)
+[1728069517] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;PROCS CRITICAL: 66 processes with STATE = RSZDT
+[1728069548] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 0%, RTA = 1.10 ms
+[1728069630] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.91 ms
+[1728069631] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728069711] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;Total Processes;0;Nagios Admin;afsd
+[1728069711] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CUSTOM (CRITICAL);notify-service-by-google-chat;PROCS CRITICAL: 66 processes with STATE = RSZDT;Nagios Admin;afsd
+[1728069752] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;Total Processes;0;Nagios Admin;SDFSDf
+[1728069752] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CUSTOM (CRITICAL);notify-service-by-google-chat;PROCS CRITICAL: 66 processes with STATE = RSZDT;Nagios Admin;SDFSDf
+[1728069817] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;PROCS CRITICAL: 66 processes with STATE = RSZDT
+[1728069819] SERVICE NOTIFICATION: nagiosadmin;web;HTTP;CRITICAL;notify-service-by-google-chat;connect to address 172.31.5.190 and port 80: Connection refused
+[1728069975] Caught SIGTERM, shutting down...
+[1728069975] Successfully shutdown... (PID=32335)
+[1728138501] Nagios 4.4.14 starting... (PID=412)
+[1728138501] Local time is Sat Oct 05 14:28:21 UTC 2024
+[1728138501] LOG VERSION: 2.0
+[1728138501] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728138501] qh: core query handler registered
+[1728138501] qh: echo service query handler registered
+[1728138501] qh: help for the query handler registered
+[1728138501] wproc: Successfully registered manager as @wproc with query handler
+[1728138501] wproc: Registry request: name=Core Worker 425;pid=425
+[1728138501] wproc: Registry request: name=Core Worker 424;pid=424
+[1728138501] wproc: Registry request: name=Core Worker 426;pid=426
+[1728138501] wproc: Registry request: name=Core Worker 423;pid=423
+[1728138501] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (54.0% change >= 20.0% threshold)
+[1728138501] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (45.6% change >= 20.0% threshold)
+[1728138502] Successfully launched command file worker with pid 710
+[1728138635] SERVICE NOTIFICATION: nagiosadmin;web;HTTP;CRITICAL;notify-service-by-google-chat;connect to address 172.31.5.190 and port 80: No route to host
+[1728138654] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138670] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 40 processes with STATE = RSZDT
+[1728138670] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 40 processes with STATE = RSZDT
+[1728138672] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138672] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138710] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138747] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728138763] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728138773] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138837] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728138865] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 44%, RTA = 0.90 ms
+[1728138973] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.93 ms
+[1728139044] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728139082] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728139546] Caught SIGTERM, shutting down...
+[1728139546] Caught SIGTERM, shutting down...
+[1728139546] Caught SIGTERM, shutting down...
+[1728139546] Successfully shutdown... (PID=412)
+[1728139683] Nagios 4.4.14 starting... (PID=2044)
+[1728139683] Local time is Sat Oct 05 14:48:03 UTC 2024
+[1728139683] LOG VERSION: 2.0
+[1728139683] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728139683] qh: core query handler registered
+[1728139683] qh: echo service query handler registered
+[1728139683] qh: help for the query handler registered
+[1728139683] wproc: Successfully registered manager as @wproc with query handler
+[1728139683] wproc: Registry request: name=Core Worker 2045;pid=2045
+[1728139683] wproc: Registry request: name=Core Worker 2047;pid=2047
+[1728139683] wproc: Registry request: name=Core Worker 2048;pid=2048
+[1728139683] wproc: Registry request: name=Core Worker 2046;pid=2046
+[1728139683] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (51.3% change >= 20.0% threshold)
+[1728139683] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (43.7% change >= 20.0% threshold)
+[1728139683] Successfully launched command file worker with pid 2049
+[1728140087] HOST ALERT: web;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1728140124] HOST ALERT: web;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1728140173] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140187] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140211] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140248] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728140274] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140337] HOST ALERT: web;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140360] HOST ALERT: web;DOWN;SOFT;7;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140397] HOST ALERT: web;DOWN;SOFT;8;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140460] HOST ALERT: web;DOWN;SOFT;9;CRITICAL - Host Unreachable (172.31.5.190)
+[1728140511] HOST ALERT: web;DOWN;HARD;10;CRITICAL - Host Unreachable (172.31.5.190)
+[1728141374] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.08 ms
+[1728141378] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.94 ms
+[1728141445] SERVICE ALERT: web;SSH;OK;HARD;1;SSH OK - OpenSSH_8.9p1 Ubuntu-3ubuntu0.10 (protocol 2.0)
+[1728141626] Caught SIGTERM, shutting down...
+[1728141626] Caught SIGTERM, shutting down...
+[1728141626] Caught SIGTERM, shutting down...
+[1728141626] Successfully shutdown... (PID=2044)
+[1728141626] Nagios 4.4.14 starting... (PID=3074)
+[1728141626] Local time is Sat Oct 05 15:20:26 UTC 2024
+[1728141626] LOG VERSION: 2.0
+[1728141626] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728141626] qh: core query handler registered
+[1728141626] qh: echo service query handler registered
+[1728141626] qh: help for the query handler registered
+[1728141626] wproc: Successfully registered manager as @wproc with query handler
+[1728141626] wproc: Registry request: name=Core Worker 3077;pid=3077
+[1728141626] wproc: Registry request: name=Core Worker 3078;pid=3078
+[1728141626] wproc: Registry request: name=Core Worker 3075;pid=3075
+[1728141626] wproc: Registry request: name=Core Worker 3076;pid=3076
+[1728141626] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (49.3% change >= 20.0% threshold)
+[1728141626] SERVICE FLAPPING ALERT: web;SSH;STARTED; Service appears to have started flapping (49.3% change >= 20.0% threshold)
+[1728141626] Successfully launched command file worker with pid 3079
+[1728141673] SERVICE ALERT: web;PING;CRITICAL;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728141676] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728141717] HOST ALERT: web;UP;SOFT;1;PING OK - Packet loss = 50%, RTA = 1.13 ms
+[1728141737] SERVICE ALERT: web;PING;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.79 ms
+[1728142011] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142048] SERVICE ALERT: web;SSH;CRITICAL;HARD;1;connect to address 172.31.5.190 and port 22: No route to host
+[1728142075] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142101] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142138] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142160] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142197] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142260] HOST ALERT: web;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142311] HOST ALERT: web;DOWN;SOFT;7;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142374] HOST ALERT: web;DOWN;SOFT;8;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142438] HOST ALERT: web;DOWN;SOFT;9;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142460] HOST ALERT: web;DOWN;HARD;10;CRITICAL - Host Unreachable (172.31.5.190)
+[1728142533] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728142533] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728142533] wproc: NOTIFY job 17 from worker Core Worker 3077 is a non-check helper but exited with return code 1
+[1728142533] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1728142533] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1728142533] wproc:   stderr line 01: mail: cannot send message: Process exited with a non-zero status
+[1728142533] wproc:   stderr line 02: mail: Cannot open file /home/nagios/dead.letter: No such file or directory
+[1728143056] Caught SIGTERM, shutting down...
+[1728143056] Caught SIGTERM, shutting down...
+[1728143056] Caught SIGTERM, shutting down...
+[1728143056] Successfully shutdown... (PID=3074)
+[1728143056] Nagios 4.4.14 starting... (PID=3447)
+[1728143056] Local time is Sat Oct 05 15:44:16 UTC 2024
+[1728143056] LOG VERSION: 2.0
+[1728143056] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728143056] qh: core query handler registered
+[1728143056] qh: echo service query handler registered
+[1728143056] qh: help for the query handler registered
+[1728143056] wproc: Successfully registered manager as @wproc with query handler
+[1728143056] wproc: Registry request: name=Core Worker 3448;pid=3448
+[1728143056] wproc: Registry request: name=Core Worker 3450;pid=3450
+[1728143056] wproc: Registry request: name=Core Worker 3451;pid=3451
+[1728143056] wproc: Registry request: name=Core Worker 3449;pid=3449
+[1728143056] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (37.1% change >= 20.0% threshold)
+[1728143056] Successfully launched command file worker with pid 3452
+[1728143109] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 68%, RTA = 0.89 ms
+[1728143208] SERVICE ALERT: web;Root Partition;UNKNOWN;SOFT;1;Unknown argument
+[1728143268] SERVICE ALERT: web;Root Partition;UNKNOWN;SOFT;2;Unknown argument
+[1728143283] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728143301] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.96 ms
+[1728143328] SERVICE ALERT: web;Root Partition;UNKNOWN;SOFT;3;Unknown argument
+[1728143388] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;UNKNOWN;notify-service-by-google-chat;Unknown argument
+[1728143388] SERVICE ALERT: web;Root Partition;UNKNOWN;HARD;4;Unknown argument
+[1728143496] Caught SIGTERM, shutting down...
+[1728143496] Caught SIGTERM, shutting down...
+[1728143496] Caught SIGTERM, shutting down...
+[1728143496] Successfully shutdown... (PID=3447)
+[1728143496] Nagios 4.4.14 starting... (PID=3547)
+[1728143496] Local time is Sat Oct 05 15:51:36 UTC 2024
+[1728143496] LOG VERSION: 2.0
+[1728143496] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728143496] qh: core query handler registered
+[1728143496] qh: echo service query handler registered
+[1728143496] qh: help for the query handler registered
+[1728143496] wproc: Successfully registered manager as @wproc with query handler
+[1728143496] wproc: Registry request: name=Core Worker 3548;pid=3548
+[1728143496] wproc: Registry request: name=Core Worker 3550;pid=3550
+[1728143496] wproc: Registry request: name=Core Worker 3551;pid=3551
+[1728143496] wproc: Registry request: name=Core Worker 3549;pid=3549
+[1728143496] SERVICE FLAPPING ALERT: web;PING;STARTED; Service appears to have started flapping (38.7% change >= 20.0% threshold)
+[1728143496] Successfully launched command file worker with pid 3552
+[1728143655] EXTERNAL COMMAND: DISABLE_SVC_FLAP_DETECTION;web;PING
+[1728143655] SERVICE FLAPPING ALERT: web;PING;DISABLED; Flap detection has been disabled
+[1728143819] HOST ALERT: web;DOWN;SOFT;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728143883] HOST ALERT: web;DOWN;SOFT;2;CRITICAL - Host Unreachable (172.31.5.190)
+[1728143900] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728143942] HOST ALERT: web;DOWN;SOFT;3;CRITICAL - Host Unreachable (172.31.5.190)
+[1728143960] HOST ALERT: web;DOWN;SOFT;4;CRITICAL - Host Unreachable (172.31.5.190)
+[1728143997] HOST ALERT: web;DOWN;SOFT;5;CRITICAL - Host Unreachable (172.31.5.190)
+[1728144060] HOST ALERT: web;DOWN;SOFT;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728144090] Caught SIGTERM, shutting down...
+[1728144090] Caught SIGTERM, shutting down...
+[1728144090] Caught SIGTERM, shutting down...
+[1728144090] Successfully shutdown... (PID=3547)
+[1728144090] Nagios 4.4.14 starting... (PID=3726)
+[1728144090] Local time is Sat Oct 05 16:01:30 UTC 2024
+[1728144090] LOG VERSION: 2.0
+[1728144090] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728144090] qh: core query handler registered
+[1728144090] qh: echo service query handler registered
+[1728144090] qh: help for the query handler registered
+[1728144090] wproc: Successfully registered manager as @wproc with query handler
+[1728144090] wproc: Registry request: name=Core Worker 3727;pid=3727
+[1728144090] wproc: Registry request: name=Core Worker 3729;pid=3729
+[1728144090] wproc: Registry request: name=Core Worker 3730;pid=3730
+[1728144090] wproc: Registry request: name=Core Worker 3728;pid=3728
+[1728144090] Successfully launched command file worker with pid 3731
+[1728144119] HOST ALERT: web;DOWN;HARD;6;CRITICAL - Host Unreachable (172.31.5.190)
+[1728144180] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.16 ms
+[1728144182] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.87 ms
+[1728145260] EXTERNAL COMMAND: SEND_CUSTOM_HOST_NOTIFICATION;web;0;Nagios Admin;sfasfd
+[1728145326] SERVICE NOTIFICATION: nagiosadmin;web;PING;CRITICAL;notify-service-by-google-chat;PING CRITICAL - Packet loss = 100%
+[1728145326] SERVICE ALERT: web;PING;CRITICAL;HARD;1;PING CRITICAL - Packet loss = 100%
+[1728145327] HOST ALERT: web;DOWN;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728145442] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.54 ms
+[1728145450] SERVICE NOTIFICATION: nagiosadmin;web;PING;OK;notify-service-by-google-chat;PING OK - Packet loss = 0%, RTA = 1.03 ms
+[1728145450] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 1.03 ms
+[1728145605] EXTERNAL COMMAND: SEND_CUSTOM_SVC_NOTIFICATION;web;Total Processes;0;Nagios Admin;asdfas
+[1728145605] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CUSTOM (OK);notify-service-by-google-chat;PROCS OK: 44 processes with STATE = RSZDT;Nagios Admin;asdfas
+[1728145726] Caught SIGTERM, shutting down...
+[1728145726] Caught SIGTERM, shutting down...
+[1728145726] Caught SIGTERM, shutting down...
+[1728145726] Successfully shutdown... (PID=3726)
+[1728145726] Nagios 4.4.14 starting... (PID=4249)
+[1728145726] Local time is Sat Oct 05 16:28:46 UTC 2024
+[1728145726] LOG VERSION: 2.0
+[1728145726] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728145726] qh: core query handler registered
+[1728145726] qh: echo service query handler registered
+[1728145726] qh: help for the query handler registered
+[1728145726] wproc: Successfully registered manager as @wproc with query handler
+[1728145726] wproc: Registry request: name=Core Worker 4250;pid=4250
+[1728145726] wproc: Registry request: name=Core Worker 4252;pid=4252
+[1728145726] wproc: Registry request: name=Core Worker 4253;pid=4253
+[1728145726] wproc: Registry request: name=Core Worker 4251;pid=4251
+[1728145726] Successfully launched command file worker with pid 4254
+[1728146133] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728146425] Caught SIGTERM, shutting down...
+[1728146425] Caught SIGTERM, shutting down...
+[1728146425] Caught SIGTERM, shutting down...
+[1728146425] Successfully shutdown... (PID=4249)
+[1728147486] Nagios 4.4.14 starting... (PID=4790)
+[1728147486] Local time is Sat Oct 05 16:58:06 UTC 2024
+[1728147486] LOG VERSION: 2.0
+[1728147486] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728147486] qh: core query handler registered
+[1728147486] qh: echo service query handler registered
+[1728147486] qh: help for the query handler registered
+[1728147486] wproc: Successfully registered manager as @wproc with query handler
+[1728147486] wproc: Registry request: name=Core Worker 4794;pid=4794
+[1728147486] wproc: Registry request: name=Core Worker 4791;pid=4791
+[1728147486] wproc: Registry request: name=Core Worker 4792;pid=4792
+[1728147486] wproc: Registry request: name=Core Worker 4793;pid=4793
+[1728147486] Successfully launched command file worker with pid 4795
+[1728147493] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147493] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147511] SERVICE NOTIFICATION: nagiosadmin;web;Current Users;CRITICAL;notify-service-by-google-chat;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147511] SERVICE ALERT: web;Current Users;CRITICAL;HARD;1;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147520] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;CRITICAL;notify-service-by-google-chat;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147520] SERVICE ALERT: web;Current Load;CRITICAL;HARD;1;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147528] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147537] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147537] SERVICE ALERT: web;Root Partition;CRITICAL;HARD;1;CHECK_NRPE: Error - Could not connect to 172.31.5.190: Connection reset by peer
+[1728147781] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 113 processes
+[1728147781] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 113 processes
+[1728147811] SERVICE NOTIFICATION: nagiosadmin;web;Current Users;OK;notify-service-by-google-chat;USERS OK - 2 users currently logged in
+[1728147811] SERVICE ALERT: web;Current Users;OK;HARD;1;USERS OK - 2 users currently logged in
+[1728147820] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;OK;notify-service-by-google-chat;OK - load average: 0.08, 0.04, 0.01
+[1728147820] SERVICE ALERT: web;Current Load;OK;HARD;1;OK - load average: 0.08, 0.04, 0.01
+[1728147828] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728147828] SERVICE ALERT: web;Swap Usage;UNKNOWN;HARD;1;NRPE: Command 'check_swap' not defined
+[1728147837] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_disk' not defined
+[1728147837] SERVICE ALERT: web;Root Partition;UNKNOWN;HARD;1;NRPE: Command 'check_disk' not defined
+[1728148390] Caught SIGTERM, shutting down...
+[1728148390] Caught SIGTERM, shutting down...
+[1728148390] Caught SIGTERM, shutting down...
+[1728148390] Successfully shutdown... (PID=4790)
+[1728148390] Nagios 4.4.14 starting... (PID=5222)
+[1728148390] Local time is Sat Oct 05 17:13:10 UTC 2024
+[1728148390] LOG VERSION: 2.0
+[1728148390] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728148390] qh: core query handler registered
+[1728148390] qh: echo service query handler registered
+[1728148390] qh: help for the query handler registered
+[1728148390] wproc: Successfully registered manager as @wproc with query handler
+[1728148390] wproc: Registry request: name=Core Worker 5223;pid=5223
+[1728148390] wproc: Registry request: name=Core Worker 5225;pid=5225
+[1728148390] wproc: Registry request: name=Core Worker 5226;pid=5226
+[1728148390] wproc: Registry request: name=Core Worker 5224;pid=5224
+[1728148390] Successfully launched command file worker with pid 5227
+[1728148471] SERVICE NOTIFICATION: nagiosadmin;web;Current Users;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728148471] SERVICE ALERT: web;Current Users;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728148485] SERVICE NOTIFICATION: nagiosadmin;web;PING;CRITICAL;notify-service-by-google-chat;PING CRITICAL - Packet loss = 100%
+[1728148485] SERVICE ALERT: web;PING;CRITICAL;HARD;1;PING CRITICAL - Packet loss = 100%
+[1728148507] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148507] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148510] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;CRITICAL;notify-service-by-google-chat;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148510] SERVICE ALERT: web;Current Load;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148518] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148518] SERVICE ALERT: web;Swap Usage;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148527] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148527] SERVICE ALERT: web;Root Partition;CRITICAL;HARD;1;CHECK_NRPE STATE CRITICAL: Socket timeout after 30 seconds.
+[1728148537] wproc: Core Worker 5225: job 7 (pid=5276) timed out. Killing it
+[1728148537] wproc: CHECK job 7 from worker Core Worker 5225 timed out after 30.01s
+[1728148537] wproc:   host=web; service=(null);
+[1728148537] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1728148537] Warning: Check of host 'web' timed out after 30.01 seconds
+[1728148537] HOST ALERT: web;DOWN;HARD;1;(Host check timed out after 30.01 seconds)
+[1728148537] wproc: Core Worker 5225: job 7 (pid=5276): Dormant child reaped
+[1728148591] SERVICE FLAPPING ALERT: web;Current Users;STARTED; Service appears to have started flapping (20.7% change >= 20.0% threshold)
+[1728148591] SERVICE ALERT: web;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1728148593] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 28%, RTA = 0.91 ms
+[1728148601] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 102 processes
+[1728148601] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 102 processes
+[1728148609] SERVICE NOTIFICATION: nagiosadmin;web;PING;OK;notify-service-by-google-chat;PING OK - Packet loss = 0%, RTA = 0.94 ms
+[1728148609] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.94 ms
+[1728148630] SERVICE FLAPPING ALERT: web;Current Load;STARTED; Service appears to have started flapping (20.7% change >= 20.0% threshold)
+[1728148630] SERVICE ALERT: web;Current Load;WARNING;HARD;1;WARNING - load average: 0.22, 0.07, 0.02
+[1728148638] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728148638] SERVICE ALERT: web;Swap Usage;UNKNOWN;HARD;1;NRPE: Command 'check_swap' not defined
+[1728148647] SERVICE FLAPPING ALERT: web;Root Partition;STARTED; Service appears to have started flapping (20.7% change >= 20.0% threshold)
+[1728148647] SERVICE ALERT: web;Root Partition;UNKNOWN;HARD;1;NRPE: Command 'check_disk' not defined
+[1728148690] SERVICE ALERT: web;Current Load;OK;HARD;1;OK - load average: 0.08, 0.06, 0.02
+[1728148921] Caught SIGTERM, shutting down...
+[1728148921] Caught SIGTERM, shutting down...
+[1728148921] Caught SIGTERM, shutting down...
+[1728148921] Successfully shutdown... (PID=5222)
+[1728148921] Nagios 4.4.14 starting... (PID=5459)
+[1728148921] Local time is Sat Oct 05 17:22:01 UTC 2024
+[1728148921] LOG VERSION: 2.0
+[1728148921] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728148921] qh: core query handler registered
+[1728148921] qh: echo service query handler registered
+[1728148921] qh: help for the query handler registered
+[1728148921] wproc: Successfully registered manager as @wproc with query handler
+[1728148921] wproc: Registry request: name=Core Worker 5460;pid=5460
+[1728148921] wproc: Registry request: name=Core Worker 5462;pid=5462
+[1728148921] wproc: Registry request: name=Core Worker 5463;pid=5463
+[1728148921] wproc: Registry request: name=Core Worker 5461;pid=5461
+[1728148921] SERVICE FLAPPING ALERT: web;Current Load;STARTED; Service appears to have started flapping (21.1% change >= 20.0% threshold)
+[1728148921] Successfully launched command file worker with pid 5464
+[1728148937] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;PROCS CRITICAL: 107 processes
+[1728148937] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;PROCS CRITICAL: 107 processes
+[1728148947] SERVICE FLAPPING ALERT: web;Root Partition;STARTED; Service appears to have started flapping (21.1% change >= 20.0% threshold)
+[1728148947] SERVICE ALERT: web;Root Partition;CRITICAL;HARD;1;DISK CRITICAL - /dev/hda1 is not accessible: No such file or directory
+[1728149574] Caught SIGTERM, shutting down...
+[1728149574] Caught SIGTERM, shutting down...
+[1728149574] Caught SIGTERM, shutting down...
+[1728149574] Successfully shutdown... (PID=5459)
+[1728149574] Nagios 4.4.14 starting... (PID=5680)
+[1728149574] Local time is Sat Oct 05 17:32:54 UTC 2024
+[1728149574] LOG VERSION: 2.0
+[1728149574] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728149574] qh: core query handler registered
+[1728149574] qh: echo service query handler registered
+[1728149574] qh: help for the query handler registered
+[1728149574] wproc: Successfully registered manager as @wproc with query handler
+[1728149574] wproc: Registry request: name=Core Worker 5683;pid=5683
+[1728149574] wproc: Registry request: name=Core Worker 5684;pid=5684
+[1728149574] wproc: Registry request: name=Core Worker 5681;pid=5681
+[1728149574] wproc: Registry request: name=Core Worker 5682;pid=5682
+[1728149574] Successfully launched command file worker with pid 5685
+[1728149607] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;DISK CRITICAL - /dev/hda1 is not accessible: No such file or directory
+[1728149778] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728150184] Caught SIGTERM, shutting down...
+[1728150184] Caught SIGTERM, shutting down...
+[1728150184] wproc: Socket to worker Core Worker 5683 broken, removing
+[1728150184] wproc: Socket to worker Core Worker 5682 broken, removing
+[1728150184] wproc: Socket to worker Core Worker 5681 broken, removing
+[1728150184] wproc: Socket to worker Core Worker 5684 broken, removing
+[1728150184] Successfully shutdown... (PID=5680)
+[1728150184] Nagios 4.4.14 starting... (PID=5947)
+[1728150184] Local time is Sat Oct 05 17:43:04 UTC 2024
+[1728150184] LOG VERSION: 2.0
+[1728150184] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728150184] qh: core query handler registered
+[1728150184] qh: echo service query handler registered
+[1728150184] qh: help for the query handler registered
+[1728150184] wproc: Successfully registered manager as @wproc with query handler
+[1728150184] wproc: Registry request: name=Core Worker 5948;pid=5948
+[1728150184] wproc: Registry request: name=Core Worker 5950;pid=5950
+[1728150184] wproc: Registry request: name=Core Worker 5951;pid=5951
+[1728150184] wproc: Registry request: name=Core Worker 5949;pid=5949
+[1728150184] Successfully launched command file worker with pid 5952
+[1728150245] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 107 processes
+[1728150245] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 107 processes
+[1728150245] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728150245] wproc: SERVICE EVENTHANDLER job 4 from worker Core Worker 5950 is a non-check helper but exited with return code 3
+[1728150245] wproc:   early_timeout=0; exited_ok=1; wait_status=768; error_code=0;
+[1728150245] wproc:   stdout line 01: NRPE: Unable to read output
+[1728150293] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;PROCS CRITICAL: 114 processes
+[1728150293] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;PROCS CRITICAL: 114 processes
+[1728150293] SERVICE EVENT HANDLER: web;Total Processes;CRITICAL;HARD;1;handle_process_alert
+[1728150293] wproc: SERVICE EVENTHANDLER job 7 from worker Core Worker 5951 is a non-check helper but exited with return code 3
+[1728150293] wproc:   early_timeout=0; exited_ok=1; wait_status=768; error_code=0;
+[1728150293] wproc:   stdout line 01: NRPE: Unable to read output
+[1728150449] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 115 processes
+[1728150449] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 115 processes
+[1728150449] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728150449] wproc: SERVICE EVENTHANDLER job 16 from worker Core Worker 5950 is a non-check helper but exited with return code 3
+[1728150449] wproc:   early_timeout=0; exited_ok=1; wait_status=768; error_code=0;
+[1728150449] wproc:   stdout line 01: NRPE: Unable to read output
+[1728150638] Caught SIGTERM, shutting down...
+[1728150638] wproc: Socket to worker Core Worker 5948 broken, removing
+[1728150638] Caught SIGTERM, shutting down...
+[1728150638] Successfully shutdown... (PID=5947)
+[1728150638] Nagios 4.4.14 starting... (PID=6108)
+[1728150638] Local time is Sat Oct 05 17:50:38 UTC 2024
+[1728150638] LOG VERSION: 2.0
+[1728150638] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728150638] qh: core query handler registered
+[1728150638] qh: echo service query handler registered
+[1728150638] qh: help for the query handler registered
+[1728150638] wproc: Successfully registered manager as @wproc with query handler
+[1728150638] wproc: Registry request: name=Core Worker 6111;pid=6111
+[1728150638] wproc: Registry request: name=Core Worker 6109;pid=6109
+[1728150638] wproc: Registry request: name=Core Worker 6112;pid=6112
+[1728150638] wproc: Registry request: name=Core Worker 6110;pid=6110
+[1728150638] Successfully launched command file worker with pid 6113
+[1728150845] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;WARNING;notify-service-by-google-chat;PROCS WARNING: 116 processes
+[1728150845] SERVICE ALERT: web;Total Processes;WARNING;HARD;1;PROCS WARNING: 116 processes
+[1728150845] SERVICE EVENT HANDLER: web;Total Processes;WARNING;HARD;1;handle_process_alert
+[1728150846] wproc: SERVICE EVENTHANDLER job 11 from worker Core Worker 6109 is a non-check helper but exited with return code 3
+[1728150846] wproc:   early_timeout=0; exited_ok=1; wait_status=768; error_code=0;
+[1728150846] wproc:   stdout line 01: NRPE: Unable to read output
+[1728151481] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 116 processes
+[1728151481] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 116 processes
+[1728151481] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728151510] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;WARNING;notify-service-by-google-chat;WARNING - load average: 0.25, 0.06, 0.02
+[1728151510] SERVICE ALERT: web;Current Load;WARNING;HARD;1;WARNING - load average: 0.25, 0.06, 0.02
+[1728151570] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;OK;notify-service-by-google-chat;OK - load average: 0.09, 0.05, 0.01
+[1728151570] SERVICE ALERT: web;Current Load;OK;HARD;1;OK - load average: 0.09, 0.05, 0.01
+[1728151601] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;WARNING;notify-service-by-google-chat;PROCS WARNING: 115 processes
+[1728151601] SERVICE ALERT: web;Total Processes;WARNING;HARD;1;PROCS WARNING: 115 processes
+[1728151601] SERVICE EVENT HANDLER: web;Total Processes;WARNING;HARD;1;handle_process_alert
+[1728151697] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 117 processes
+[1728151697] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 117 processes
+[1728151697] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728152153] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;WARNING;notify-service-by-google-chat;PROCS WARNING: 117 processes
+[1728152153] SERVICE ALERT: web;Total Processes;WARNING;HARD;1;PROCS WARNING: 117 processes
+[1728152153] SERVICE EVENT HANDLER: web;Total Processes;WARNING;HARD;1;handle_process_alert
+[1728152238] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728152417] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 115 processes
+[1728152417] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 115 processes
+[1728152417] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728152885] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;WARNING;notify-service-by-google-chat;PROCS WARNING: 116 processes
+[1728152885] SERVICE ALERT: web;Total Processes;WARNING;HARD;1;PROCS WARNING: 116 processes
+[1728152885] SERVICE EVENT HANDLER: web;Total Processes;WARNING;HARD;1;handle_process_alert
+[1728152993] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;OK;notify-service-by-google-chat;PROCS OK: 116 processes
+[1728152993] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 116 processes
+[1728152993] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728153207] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;DISK CRITICAL - /dev/hda1 is not accessible: No such file or directory
+[1728153277] Caught SIGTERM, shutting down...
+[1728153277] Successfully shutdown... (PID=6108)
+[1728306830] Nagios 4.4.14 starting... (PID=418)
+[1728306830] Local time is Mon Oct 07 13:13:50 UTC 2024
+[1728306830] LOG VERSION: 2.0
+[1728306830] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1728306830] qh: core query handler registered
+[1728306830] qh: echo service query handler registered
+[1728306830] qh: help for the query handler registered
+[1728306830] wproc: Successfully registered manager as @wproc with query handler
+[1728306830] wproc: Registry request: name=Core Worker 421;pid=421
+[1728306830] wproc: Registry request: name=Core Worker 419;pid=419
+[1728306830] wproc: Registry request: name=Core Worker 422;pid=422
+[1728306830] wproc: Registry request: name=Core Worker 420;pid=420
+[1728306831] Successfully launched command file worker with pid 669
+[1728306841] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306841] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306841] SERVICE EVENT HANDLER: web;Total Processes;CRITICAL;HARD;1;handle_process_alert
+[1728306841] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306844] HOST NOTIFICATION: nagiosadmin;web;DOWN;notify-host-by-google-chat;CRITICAL - Host Unreachable (172.31.5.190)
+[1728306844] HOST ALERT: web;DOWN;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728306844] SERVICE ALERT: web;Current Users;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306844] wproc: SERVICE EVENTHANDLER job 1 from worker Core Worker 421 is a non-check helper but exited with return code 2
+[1728306844] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1728306844] wproc:   stderr line 01: connect to address 172.31.5.190 port 5666: No route to host
+[1728306844] wproc:   stderr line 02: connect to host 172.31.5.190 port 5666: No route to host
+[1728306852] SERVICE ALERT: web;Swap Usage;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306852] SERVICE ALERT: web;PING;CRITICAL;HARD;1;CRITICAL - Host Unreachable (172.31.5.190)
+[1728306889] SERVICE ALERT: web;Current Load;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: No route to host
+[1728306921] SERVICE ALERT: web;Total Processes;OK;HARD;1;PROCS OK: 116 processes
+[1728306921] SERVICE EVENT HANDLER: web;Total Processes;OK;HARD;1;handle_process_alert
+[1728306921] HOST NOTIFICATION: nagiosadmin;web;UP;notify-host-by-google-chat;PING OK - Packet loss = 72%, RTA = 0.74 ms
+[1728306921] HOST ALERT: web;UP;HARD;1;PING OK - Packet loss = 72%, RTA = 0.74 ms
+[1728306922] SERVICE ALERT: web;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+[1728306947] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;CRITICAL;notify-service-by-google-chat;CRITICAL - load average: 0.67, 0.20, 0.07
+[1728306968] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728306968] SERVICE ALERT: web;Swap Usage;UNKNOWN;HARD;1;NRPE: Command 'check_swap' not defined
+[1728306974] SERVICE ALERT: web;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.75 ms
+[1728307022] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728307066] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;WARNING;notify-service-by-google-chat;WARNING - load average: 0.16, 0.19, 0.08
+[1728307066] SERVICE ALERT: web;Current Load;WARNING;HARD;1;WARNING - load average: 0.16, 0.19, 0.08
+[1728307366] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;OK;notify-service-by-google-chat;OK - load average: 0.00, 0.06, 0.05
+[1728307366] SERVICE ALERT: web;Current Load;OK;HARD;1;OK - load average: 0.00, 0.06, 0.05
+[1728308206] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;WARNING;notify-service-by-google-chat;WARNING - load average: 0.16, 0.03, 0.01
+[1728308206] SERVICE ALERT: web;Current Load;WARNING;HARD;1;WARNING - load average: 0.16, 0.03, 0.01
+[1728308266] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;OK;notify-service-by-google-chat;OK - load average: 0.06, 0.03, 0.00
+[1728308266] SERVICE ALERT: web;Current Load;OK;HARD;1;OK - load average: 0.06, 0.03, 0.00
+[1728310430] Auto-save of retention data completed successfully.
+[1728310497] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;DISK CRITICAL - /dev/hda1 is not accessible: No such file or directory
+[1728310568] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728310622] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728314030] Auto-save of retention data completed successfully.
+[1728314097] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;DISK CRITICAL - /dev/hda1 is not accessible: No such file or directory
+[1728314168] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;UNKNOWN;notify-service-by-google-chat;NRPE: Command 'check_swap' not defined
+[1728314222] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1728314324] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;WARNING;notify-service-by-google-chat;PROCS WARNING: 109 processes
+[1728314324] SERVICE ALERT: web;Total Processes;WARNING;HARD;1;PROCS WARNING: 109 processes
+[1728314324] SERVICE EVENT HANDLER: web;Total Processes;WARNING;HARD;1;handle_process_alert
+[1728317630] Auto-save of retention data completed successfully.
+[1728317660] SERVICE NOTIFICATION: nagiosadmin;web;Total Processes;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317660] SERVICE ALERT: web;Total Processes;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317660] SERVICE EVENT HANDLER: web;Total Processes;CRITICAL;HARD;1;handle_process_alert
+[1728317660] wproc: SERVICE EVENTHANDLER job 583 from worker Core Worker 422 is a non-check helper but exited with return code 2
+[1728317660] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1728317660] wproc:   stderr line 01: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317660] wproc:   stderr line 02: connect to host 172.31.5.190 port 5666: Connection refused
+[1728317662] SERVICE NOTIFICATION: nagiosadmin;web;Current Users;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317662] SERVICE ALERT: web;Current Users;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317686] SERVICE NOTIFICATION: nagiosadmin;web;Current Load;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317686] SERVICE ALERT: web;Current Load;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317697] SERVICE NOTIFICATION: nagiosadmin;web;Root Partition;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317708] SERVICE NOTIFICATION: nagiosadmin;web;Swap Usage;CRITICAL;notify-service-by-google-chat;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317708] SERVICE ALERT: web;Swap Usage;CRITICAL;HARD;1;(No output on stdout) stderr: connect to address 172.31.5.190 port 5666: Connection refused
+[1728317822] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-google-chat;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
